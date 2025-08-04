@@ -129,6 +129,3 @@ Total COVID-19 Cases in India: 44,997,856
 - Depends on external API availability
 - No real-time data updates
 - Single database instance only
-
-## Security Note
-⚠️ Never commit real credentials. Use environment variables in production.
