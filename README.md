@@ -38,9 +38,9 @@ Edit `config.ini`:
 ```ini
 [database]
 host = localhost
-user = etl_user
+user = root
 password = your_password
-database = healthcare_db
+database = healthcare
 
 [api]
 base_url = https://disease.sh/v3/covid-19/
