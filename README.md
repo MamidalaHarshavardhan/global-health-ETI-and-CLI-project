@@ -123,9 +123,10 @@ INFO - Loaded 31 new records into daily_cases table
 $ python main.py query_data total_cases India
 Total COVID-19 Cases in India: 44,997,856
 ```
+python main.py fetch_data --country "India"
+<img width="975" height="284" alt="image" src="https://github.com/user-attachments/assets/391dc4b9-9add-442b-abb5-e70a1c579d86" />
 
-## Known Limitations
-- API rate limits may slow large requests
-- Depends on external API availability
-- No real-time data updates
-- Single database instance only
+python main.py fetch_data --country "India" --start_date 2023-01-01 --end_date 2023-01-31
+<img width="975" height="257" alt="image" src="https://github.com/user-attachments/assets/85e27870-ffa4-4623-834e-99aff1ebacb3" />
+
+
